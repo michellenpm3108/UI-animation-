@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Playfair+Display:wght@200;500&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: rgb(235, 235, 235);
+    background-image: url(/graph-bg.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.customer-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* ----TYPOGRAPHY---- */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, 
+.quotes {
+    font-family: 'Playfair', serif;
+}
+.cta {
+    font-size: .75rem;
+    font-weight: 700;
+}
+/* ----LAYOUT ------- */
+.wrapper {
+    margin-top: 3em;
+}
+.col {
+    position: relative;
+}
+.phone {
+    position: absolute;
+    width: 250px;
+    top: 2em;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.left {
+    height: 50vh;
+    display: grid;
+    place-content: center;
+    /* border: 1px solid; */
+}
+h1{
+    width: 90%;
+    margin: 0 auto 1.5em;
+}
+.cta {
+    background-color: rgb(65, 184, 65);
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    border-radius: .3em;
+}
+.right {
+    margin-top: 12em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    margin: 0 auto;
+}
+li {
+    margin-bottom: 2em;
+}
