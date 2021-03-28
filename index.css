@@ -9,7 +9,7 @@ body {
     background-color: rgb(235, 235, 235);
     background-image: url(/graph-bg.svg);
     background-repeat: no-repeat;
-    background-position: 0% 15%;
+    background-position: 0% 20%;
     background-size: 130%;;
     text-align: center;
 }
@@ -51,7 +51,7 @@ h1,
     /* border: 1px solid; */
 }
 h1{
-    width: 90%;
+    width: 70%;
     margin: 0 auto 1.5em;
 }
 .cta {
@@ -81,25 +81,64 @@ li {
 
 @media (min-width: 400px) {
     h1{
-        width: 70%;
+        font-size: 2.5rem;
+        width: 80%;
+    }
+    body {
+        background-position: 0 30%;
     }
 }
 @media (min-width: 800px) {
+    body {
+        text-align: left;
+        background-size: 100%;
+        background-position: 0 20%;   
+        height: 100vh;     
+    }
+
     .wrapper {
-        display: grid;
-        grid-template-columns: 330px auto;
+        display: flex;
+        padding: 2em;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .left {
+        width: 75%;
+        padding: 3em;
     }
     .phone {
-        margin: 0;
-        left: 40px;
+        left: 10%;
+        top: 5em;
+        margin: unset;
+    }
+    h1{
+        margin: 0 0 1em;
+        width: 100%;
     }
     .right{
-        margin-top: 4em;
+        margin-top: 6em;
+        width: 100%;
     }
-    ul {
-        display: flex;
+    .right ul li {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: .7em;
+        background-color: #dddddd;
+        padding: 1em;
+        margin-left: 2em;
     }
-    li {
-        margin: 0 1em;
+    .quotes {
+        margin: 0;
     }
+    .author {
+        margin: .75em 0 0;
+        font-size: .7rem;
+    }
+    .right ul li:nth-child(2) {
+        margin: 1em 0;
+    }
+
+    .right ul li:nth-child(1) {
+        transform:translateX(-5%);
+        margin: 0;
 }
