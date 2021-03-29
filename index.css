@@ -60,6 +60,11 @@ h1{
     text-decoration: none;
     color: white;
     border-radius: .3em;
+    transition: all 1s;
+}
+.cta:hover {
+    background-color: rgb(43, 128, 43);
+    transform: scale(1.5);
 }
 .right {
     margin-top: 12em;
@@ -143,3 +148,5 @@ li {
         transform:translateX(-5%);
         margin: 0;
 }
+
+
