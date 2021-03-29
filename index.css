@@ -104,10 +104,10 @@ li {
     }
     .left {
         width: 75%;
-        padding: 3em;
+        padding: 5em 3em;
     }
     .phone {
-        left: 10%;
+        left: 12%;
         top: 5em;
         margin: unset;
     }
@@ -126,6 +126,7 @@ li {
         background-color: #dddddd;
         padding: 1em;
         margin-left: 2em;
+        border-radius: 8px;
     }
     .quotes {
         margin: 0;
